@@ -44,7 +44,7 @@
   <!-- Path to the executable, which should be started -->
   <executable>java</executable>
   <arguments>
-  
+  java -jar agent.jar -jnlpUrl http://172.31.88.230/computer/windows/jenkins-agent.jnlp -secret 3004fbe1e0882bb719c29959d6b20e11ad2d5d32b7edf0a0350f5799989813a2 -workDir ""
   </arguments>
 
 </service>
