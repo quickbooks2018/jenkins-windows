@@ -18,3 +18,11 @@ docker run --name jenkins -w /var/jenkins_home -id -v jenkins:/var/jenkins_home 
 ```connection
 java -jar agent.jar -jnlpUrl http://172.31.88.230/computer/windows/jenkins-agent.jnlp -secret 3004fbe1e0882bb719c29959d6b20e11ad2d5d32b7edf0a0350f5799989813a2 -workDir ""
 ```
+
+- command to run this as a service
+WinSW.NET4.exe install
+
+- windows delete a service
+```delete
+SC DELETE jenkins
+```
