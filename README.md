@@ -13,3 +13,8 @@ docker run --name jenkins -w /var/jenkins_home -id -v jenkins:/var/jenkins_home 
 - https://github.com/winsw/winsw
 
 - download this ---> WinSW.NET4.exe & sample-minimal.xml from releases
+
+- jenkins connection
+```connection
+java -jar agent.jar -jnlpUrl http://3.87.36.21/computer/windows/jenkins-agent.jnlp -secret 3004fbe1e0882bb719c29959d6b20e11ad2d5d32b7edf0a0350f5799989813a2 -workDir ""
+```
